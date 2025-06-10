@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+body {
+    background-color: bisque;
+     font-family: Bai Jamjuree;
+}
+footer {
+    background-color: black;
+    color: white;
+    bottom:0;
+    position:fixed;
+    width:100%;
+}
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+        height:2rem;
+            margin-top: 0,5rem;
+}
+=======
 body {
     background-color: bisque;
 }
@@ -7,4 +26,16 @@ footer {
     bottom:0;
     position:fixed;
     width:100%
+}
+>>>>>>> d9afde18510a6ba0b2a72a8c40c84187b60a51d4
+#container {
+    display:flex ;
+}
+.cartao {
+    margin: 1rem 1rem;
+}
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
 }
