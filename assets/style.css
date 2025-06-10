@@ -41,7 +41,6 @@ footer {
 }
 .cartao {
     margin: 1rem 1rem;
-    background-color: aqua;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
@@ -50,6 +49,14 @@ footer {
     text-align: center;
     height: 100%;
     background-color: var(--card-front-color);
+}
+.cartao__conteudo__pergunta p{
+    color: var(--text-color);
+    font-weight: 500;
+}
+.cartao__conteudo__resposta p{
+    color: var(--card-back-color);
+    font-weight: 700;
 }
 .cartao__conteudo h3 {
     color: var(--text-color);
